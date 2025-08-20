@@ -1,5 +1,18 @@
+:root {
+	--font-roboto: 'Roboto', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+}
+
 * {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	font-family: var(--font-roboto);
 }
